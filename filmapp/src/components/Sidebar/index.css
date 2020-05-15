@@ -1,0 +1,58 @@
+.App-sidebar-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  .sidebar-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 0;
+    font-size: 14px;
+  }
+  
+  .sidebar-menu__item{
+    position: relative;
+  }
+  
+  .sidebar-menu__item a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: block;
+    transition: all .3s ease;
+  }
+  
+  .sidebar-menu__item a svg{
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: -2px;
+  }
+  
+  .sidebar-menu__item a svg path{
+    transition: all .3s ease;
+    fill: #FFF;
+  }
+  
+  .sidebar-menu__item a.is-active,
+  .sidebar-menu__item:hover a{
+    color: blue;
+  }
+  
+  .sidebar-menu__item a.is-active path,
+  .sidebar-menu__item:hover a path{
+    fill: blue;
+  }
+  
+  
+  .sidebar-menu__item--coming-soon{
+    margin: 10px 0;
+    font-style: italic;
+  }
+  
+  .sidebar-menu__item--coming-soon a{
+    color: rgba(255, 255, 255, 0.5);
+  }
