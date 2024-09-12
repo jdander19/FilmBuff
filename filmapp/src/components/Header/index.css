@@ -1,0 +1,91 @@
+.App-header {
+    display: grid;
+    grid-template-columns: 18% 72% auto;
+    background-color: blue;
+  }
+  
+  .App-header-title{
+    padding: 16px 12px 9px;
+    text-align: center;
+    display: block;
+    transition: all .5s ease;
+  }
+  
+  
+  .App-header-title-kanji{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    visibility: hidden;
+    padding: 16px 0;
+    background-color: #191C1F;
+    transition: all .5s cubic-bezier(.95,-0.6,.73,1.73);
+  }
+  
+  .App-header-title-kanji img{
+    height: 65px;
+  }
+  
+  .App-logo{
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .App-logo:hover .App-header-title{
+    visibility: hidden;
+  }
+  
+  .App-logo:hover .App-header-title-kanji{
+    visibility: visible;
+    left: 0;
+  }
+  
+  .login-tickets-wrapper{
+    position: relative;
+  }
+  
+  .login-tickets a{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .login-tickets{
+    cursor: pointer;
+    fill: #FFF;
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login-tickets-label{
+    font-size: 10px;
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+  
+  
+  .user-wrapper{
+    position: relative;
+  }
+  
+  .user-wrapper-avatar{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    cursor: pointer;
+  }

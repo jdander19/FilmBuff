@@ -1,0 +1,140 @@
+.Login-wrapper{
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
+    margin: 100px auto;
+    background-color: rgba(20, 22, 24, 0.5);
+  }
+  
+  .login-form-title{
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .login-form-content{
+    padding: 10px 50px;
+  }
+  
+  .login-form-notice{
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    opacity: 0.7;
+  }
+  
+  .filmbuff-form input[type="text"],
+  .filmbuff-form input[type="password"],
+  .filmbuff-form input[type="email"],
+  .filmbuff-form input[type="url"],
+  .filmbuff-form input[type="date"],
+  .filmbuff-form input[type="month"],
+  .filmbuff-form input[type="time"],
+  .filmbuff-form input[type="datetime"],
+  .filmbuff-form input[type="datetime-local"],
+  .filmbuff-form input[type="week"],
+  .filmbuff-form input[type="number"],
+  .filmbuff-form input[type="search"],
+  .filmbuff-form input[type="tel"],
+  .filmbuff-form input[type="color"],
+  .filmbuff-form select,
+  .filmbuff-form textarea {
+    padding: 0.75em 1em;
+    display: inline-block;
+    border: 0;
+    box-shadow: none;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .filmbuff-form input[type="text"]:focus,
+  .filmbuff-form input[type="password"]:focus,
+  .filmbuff-form input[type="email"]:focus,
+  .filmbuff-form input[type="url"]:focus,
+  .filmbuff-form input[type="date"]:focus,
+  .filmbuff-form input[type="month"]:focus,
+  .filmbuff-form input[type="time"]:focus,
+  .filmbuff-form input[type="datetime"]:focus,
+  .filmbuff-form input[type="datetime-local"]:focus,
+  .filmbuff-form input[type="week"]:focus,
+  .filmbuff-form input[type="number"]:focus,
+  .filmbuff-form input[type="search"]:focus,
+  .filmbuff-form input[type="tel"]:focus,
+  .filmbuff-form input[type="color"]:focus,
+  .filmbuff-form select:focus,
+  .filmbuff-form textarea:focus {
+    outline: 0;
+  }
+  
+  .filmbuff-form input[type="text"]::placeholder,
+  .filmbuff-form input[type="password"]::placeholder,
+  .filmbuff-form input[type="email"]::placeholder{
+    color: rgba(0, 0, 0, 0.35);
+  }
+  
+  .filmbuff-form label {
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 3em 0 0.8em;
+    display: block;
+  }
+  
+  .login-form-submit{
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .alternate-login{
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 0;
+    opacity: 0.4;
+  }
+  
+  .alternate-login::before,
+  .alternate-login::after{
+    content: "";
+    height: 1px;
+    width: 40%;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    position: absolute;
+    opacity: 0.6;
+    padding: 0 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .alternate-login::before{
+    left: 0;
+  }
+  
+  .alternate-login::after{
+    right: 0;
+  }
+  
+  .login-social-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 30px;
+  }
+  
+  .login-social{
+    cursor: pointer;
+    background: none;
+    border: 0;
+  }
+  
+  .login-social svg{
+    width: 30px;
+    height: auto;
+  }

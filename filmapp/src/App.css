@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans');
+
+body {
+ margin: 0;
+ padding: 0;
+}
+
+body, input, textarea, button{
+ font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4{
+ font-family: 'Oswald', sans-serif;
+}
+
+html {
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+.App{
+  overflow: hidden;
+}
+
+.App-main{
+  display: grid;
+  grid-template-columns: 18% auto;
+  min-height: 100vh;
+}
+
+.App-sidebar-wrapper{
+  background-color: #191C1F;
+}
+
+.App-content-wrapper{
+  background-color: #222B31;
+  color: #FFF;
+}
